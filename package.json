@@ -1,0 +1,31 @@
+{
+  "name": "fetch-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@chain-registry/types": "^0.16.0",
+    "@keplr-wallet/types": "^0.12.10",
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tsconfig/svelte": "^4.0.1",
+    "cosmjs-types": "^0.8.0",
+    "svelte": "^3.58.0",
+    "svelte-check": "^3.3.1",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.30.1",
+    "@cosmjs/stargate": "^0.30.1",
+    "@cosmjs/tendermint-rpc": "^0.30.1",
+    "chain-registry": "^1.14.0",
+    "svelte-router-spa": "^6.0.3"
+  }
+}

@@ -1,0 +1,10 @@
+/// <reference types="svelte" />
+/// <reference types="vite/client" />
+
+import type { Keplr } from '@keplr-wallet/types'
+
+declare global {
+  interface Window {
+    keplr: Keplr | undefined
+  }
+}
